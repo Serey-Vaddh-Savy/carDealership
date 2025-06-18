@@ -1,0 +1,203 @@
+body,head,html{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    height: 3000px;
+    background-color: #533F3F;
+}
+
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+    color: #EBD698;
+}
+
+
+#frameOne{
+    width: 100%;
+    height: 890px;
+    background-image: url(cover.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#frameOne div{
+    
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#frameOne h1{
+    margin-left: 6%;
+    color: white;
+    font-size: 3vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    transition: 0.3s;
+    height: 30px;
+    
+}
+
+#frameOne nav{
+    display: flex;
+    flex-direction: row;
+    margin-right: 6%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+#frameOne li{
+    margin-top: 10px;
+    font-size: 2vw;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    transition: 0.3s;
+    height: 30px;
+}
+
+#frameOne li:hover, #frameOne h1:hover{
+    color: #EBD698;
+}
+#frameOne p{
+
+    color: #EBD698;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    right: 14%;
+    top: 43%;
+    
+}
+
+#frameTwo{
+    display: flex;
+    width: 100%;
+    height: 710px;
+    background-color: #151414;
+}
+
+#frameTwo img{
+    height: 100%;
+    transition: 0.3s;
+}
+
+#frameThree{
+    width: 100%;
+    height: 15vw;
+    background-color: rgb(0, 0, 0);
+}
+
+#frameThree img{
+    width: 50%;
+    transform: translateX(-100px);
+}
+
+#frameFour{
+    display: flex;
+    justify-content: space-between;
+    height: 33vw;
+    width: 100%;
+    background-color: #533F3F;
+    border-bottom:5px solid #EBD698;
+}
+
+.fourthFramePic{
+    height: 100%;
+}
+
+#frameFour p{
+    
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#EBD698;
+    display: block;
+
+}
+
+
+
+#frameFive{
+    display: block;
+    background-color: #533F3F;
+}
+
+#frameFive h2{
+    font-size: 60px;
+    text-align: center;
+}
+
+#displayCar{
+    
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.car{
+
+    padding-top: 30px;
+    width: 25%;
+    height: 80%;
+    background-color: #594444;
+    border-radius: 20px;
+    transition: 0.5s;
+
+}
+
+.car img{
+    padding-top: 30px;
+    width: 100%;
+}
+
+.car h3{
+    
+    text-align: center;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+}
+
+.car p{
+    color: white;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+.car button{
+    margin-top: 30px;
+    display: block;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 12%;
+    background-color: #533F3F;
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    transition: 0.5s;
+    
+}
+
+.car:hover{
+    transform: scale(1.1);
+}
+
+.car button:hover{
+    color: #533F3F;
+    background-color: #EBD698;
+}   
+
